@@ -1,13 +1,21 @@
 .menu.top-menu{
   margin: auto;
   box-shadow: none;
-  border: none !important;
+  border: none;
   background-color: #f5f5f5;
 }
 
-.top-ui-container{
-  padding-left: 10px;
-  padding-right: 10px;
+.menu.middle-menu{
+  box-shadow: none;
+  border: none;
+}
+
+.middle-ui-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
 }
 
 .dropdown.my-cart{
@@ -20,7 +28,17 @@
   border: none;
   box-shadow: none;
 }
+
 .icon{
-  size: auto;
   align-self: center;
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-image{
+  width: 100%;
 }
